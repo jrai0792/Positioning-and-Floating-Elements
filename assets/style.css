@@ -3,11 +3,12 @@ body {
 }
 
 .header {
-  height: 40px;
+  height: 42px;
   width: 100%;
   background-color: #fff;
   position: fixed;
   top: 0;
+  border-bottom: 1px solid rgba(197, 194, 194, 0.589);
 }
 
 .flex {
@@ -102,14 +103,31 @@ main {
 }
 
 .main-content {
-  line-height: 30px;
-  font-size: 20px;
   width: 40%;
   margin: 0 auto;
 }
 
-.main-content h2 {
-  font-size: 15px;
+.content {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+  font-weight: 400;
+}
+
+.main-content .author-name {
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.main-content .author-name a {
+  text-decoration: underline;
+  text-decoration-color: rgba(180, 177, 177, 0.589);
+}
+
+.main-content p a:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .date-share-icons p {
@@ -125,17 +143,28 @@ main {
   margin: 0 10px;
 }
 
-.date-share-icons i {
+.social-icons {
+  line-height: 17px;
+  font-size: 17px;
   background-color: rgba(197, 194, 194, 0.589);
   border-radius: 50%;
-  display: inline-block;
-  font-size: 15px;
-  padding: 7px;
 }
 
-.date-share-icons i:hover {
+.date-share-icons i {
+  display: inline-block;
+  padding: 8px;
+}
+
+.book-comment {
+  background-color: royalblue;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.date-share-icons .social-icons:hover {
   background-color: #fff;
-  outline: 1px solid black;
+  border: 0.1px solid rgb(177, 171, 171);
   border-radius: 50%;
   cursor: pointer;
 }
