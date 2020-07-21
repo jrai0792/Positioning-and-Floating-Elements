@@ -1,5 +1,4 @@
 body {
-  background-color: gray;
   font-family: georgia, "times new roman", times, serif, nyt-franklin, helvetica, arial, sans-serif;
 }
 
@@ -21,7 +20,7 @@ body {
   align-items: center;
 }
 
-.nav-bar ul {
+ul {
   list-style: none;
 }
 
@@ -65,4 +64,80 @@ body {
 
 .subscribe {
   margin-right: 7px;
+}
+
+/* Main */
+main {
+  margin-top: 40px 
+}
+
+.heading-img {
+  width: 85%;
+  margin: 0 auto;
+
+}
+
+.heading-img h1 {
+  margin: auto;
+  font-size: 40px;
+  width: 600px;
+  font-style: italic;
+  padding: 4rem 0 1rem 0;
+  font-weight: 900;
+}
+
+.heading-img img {
+  width: 100%;
+}
+
+.heading-img figcaption {
+  font-size: 15px;
+  color:rgb(44, 43, 43); 
+  line-height: 20px;
+  width: 75%;
+
+}
+
+.heading-img figcaption span {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.main-content {
+  font-family: nyt-imperial;
+  line-height: 30px;
+  font-size: 20px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.main-content h2 {
+  font-size: 15px;
+}
+
+.date-share-icons p{
+  font-size: 13px;
+
+}
+.date-share-icons ul {
+  flex: 70%;
+  justify-content: flex-end;
+}
+.date-share-icons ul li {
+  margin: 0 10px;
+  
+}
+.date-share-icons i {
+  background-color: rgba(197, 194, 194, 0.589);
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 15px;
+  padding: 7px;
+
+}
+.date-share-icons i:hover {
+  background-color: #fff;
+  outline: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
 }
