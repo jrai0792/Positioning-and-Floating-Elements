@@ -1,0 +1,26 @@
+{
+  "name": "positioning-and-floating-elements",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrai0792/Positioning-and-Floating-Elements.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrai0792/Positioning-and-Floating-Elements/issues"
+  },
+  "homepage": "https://github.com/jrai0792/Positioning-and-Floating-Elements#readme",
+  "devDependencies": {
+    "hint": "^6.0.6",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}

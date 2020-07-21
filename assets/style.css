@@ -1,3 +1,68 @@
 body {
-  background-color: aliceblue;
+  background-color: gray;
+  font-family: georgia, "times new roman", times, serif, nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.header {
+  height: 40px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  height: 100%;
+  align-items: center;
+}
+
+.nav-bar ul {
+  list-style: none;
+}
+
+.hamburger-search {
+  flex: 1;
+  margin-left: 5px;
+  height: 100%;
+}
+
+.hamburger-search li .fa-bars {
+  padding-right: 30px;
+  margin-left: -25px;
+}
+
+.nav-logo {
+  flex: 1;
+  height: 100%;
+}
+
+.nav-logo li img {
+  display: block;
+  height: 50px;
+  margin-top: -5px;
+}
+
+.subscribe-login {
+  margin-right: 20px;
+  height: 100%;
+}
+
+.btn {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  background-color: #567b95;
+  color: #fff;
+  padding: 11px 12px 8px;
+  line-height: 11px;
+  border-radius: 3px;
+  border: 1px solid rgba(50, 104, 145, 0);
+}
+
+.subscribe {
+  margin-right: 7px;
 }
