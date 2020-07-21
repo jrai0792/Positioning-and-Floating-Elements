@@ -40,7 +40,7 @@ ul {
   height: 100%;
 }
 
-.nav-logo li img {
+.nav-logo img {
   display: block;
   height: 50px;
   margin-top: -5px;
@@ -68,13 +68,12 @@ ul {
 
 /* Main */
 main {
-  margin-top: 40px 
+  margin-top: 40px;
 }
 
 .heading-img {
   width: 85%;
   margin: 0 auto;
-
 }
 
 .heading-img h1 {
@@ -92,10 +91,9 @@ main {
 
 .heading-img figcaption {
   font-size: 15px;
-  color:rgb(44, 43, 43); 
+  color: rgb(44, 43, 43);
   line-height: 20px;
   width: 75%;
-
 }
 
 .heading-img figcaption span {
@@ -104,7 +102,6 @@ main {
 }
 
 .main-content {
-  font-family: nyt-imperial;
   line-height: 30px;
   font-size: 20px;
   width: 40%;
@@ -115,26 +112,27 @@ main {
   font-size: 15px;
 }
 
-.date-share-icons p{
+.date-share-icons p {
   font-size: 13px;
-
 }
+
 .date-share-icons ul {
   flex: 70%;
   justify-content: flex-end;
 }
+
 .date-share-icons ul li {
   margin: 0 10px;
-  
 }
+
 .date-share-icons i {
   background-color: rgba(197, 194, 194, 0.589);
   border-radius: 50%;
   display: inline-block;
   font-size: 15px;
   padding: 7px;
-
 }
+
 .date-share-icons i:hover {
   background-color: #fff;
   outline: 1px solid black;
