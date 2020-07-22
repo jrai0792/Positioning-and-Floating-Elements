@@ -151,9 +151,15 @@ main {
   display: inline-block;
   text-decoration: none;
   padding: 0 5px;
-  font-size: 13px;
+  font-size: 11px;
   color: #666;
   font-weight: 400;
+}
+
+.content span a {
+  font-weight: 400;
+  color: #326891;
+  text-decoration: underline;
 }
 
 .main-content .author-name a {
@@ -234,6 +240,16 @@ main {
   color: rgb(107, 103, 103);
 }
 
+.menu li {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.subscribe-section li {
+  padding-bottom: 15px;
+  padding-left: -20px;
+}
+
 .first-row ul li,
 .second-row ul li {
   display: grid;
@@ -275,9 +291,9 @@ main {
 .footer img {
   display: block;
   width: 200px;
-  height: 50px;
+  height: 60px;
   margin-top: -10px;
-  margin-bottom: -10px;
+  margin-bottom: -5px;
   padding: 0;
 }
 
@@ -432,15 +448,24 @@ main {
 /* Footer Section */
 
 .footer {
+  width: 100%;
+}
+
+.movable-footer {
   width: 80%;
   margin: 0 auto;
   border-top: 2px double rgba(180, 178, 178, 0.575);
   border-top-width: 5px;
 }
 
+.footer-menu ul {
+  padding-inline-start: 0;
+}
+
 .menu {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  column-gap: 30px;
 }
 
 .menu li:first-child {
@@ -452,6 +477,7 @@ main {
 
 .footer-bottom {
   border-top: 1px solid rgba(180, 178, 178, 0.575);
+  margin-bottom: 80px;
 }
 
 /* Fixed Footer */
@@ -462,14 +488,39 @@ main {
   bottom: 0;
   width: 100%;
   background-color: #fff;
+  border-top: 1px solid #000;
 }
 
 .fixed-footer p:first-child {
-  flex: 3;
-  text-align: center;
+  flex: 4;
+  margin-left: 500px;
 }
 
 .fixed-footer p:nth-child(2) {
-  flex: 0.35;
+  font-weight: 600;
+  flex: 0.5;
   text-align: center;
+}
+
+.more-section {
+  padding-right: 30px;
+  border-right: 1px solid rgba(180, 178, 178, 0.575);
+  height: 95%;
+}
+
+.subscribe-section li:nth-child(6),
+.subscribe-section li:nth-child(7),
+.subscribe-section li:nth-child(8),
+.subscribe-section li:nth-child(9),
+.subscribe-section li:nth-child(10),
+.subscribe-section li:nth-child(11) {
+  font-size: 11px;
+}
+
+.subscribe-section li:nth-child(8) {
+  border-bottom: 1px solid rgba(180, 178, 178, 0.575);
+}
+
+.subscribe-section li:nth-child(9) {
+  margin-top: 5px;
 }
