@@ -128,9 +128,37 @@ main {
   text-decoration: underline;
 }
 
+.space-astronomy a {
+  grid-column: 1/-1;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.most-popular a {
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 500;
+  color: #000;
+  display: inline-block;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-top: 1px solid rgba(211, 204, 204, 0.822);
+}
+
 .main-content .author-name a {
   text-decoration: underline;
   text-decoration-color: rgba(180, 177, 177, 0.589);
+}
+
+.space-astronomy a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.most-popular a:hover {
+  color: #666;
 }
 
 .main-content p a:hover {
@@ -225,6 +253,12 @@ main {
   padding-right: 10px;
 }
 
+.space-astronomy img,
+.editor-pick img {
+  width: 290px;
+  height: 270px;
+}
+
 .first-row ul li figure img,
 .second-row ul li figure img {
   height: 130px;
@@ -310,4 +344,59 @@ main {
 .social-share i:hover {
   background-color: #fff;
   cursor: pointer;
+}
+
+/* More in Space & Astronomy section */
+
+.extra {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 30px;
+}
+
+.space-astronomy {
+  display: grid;
+  border-top: 1px solid #000;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: max-content;
+  padding-top: 15px;
+  row-gap: 30px;
+}
+
+.editor-pick {
+  border-top: 1px solid #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: max-content 1fr;
+  height: 350px;
+  padding-top: 10px;
+}
+
+.editor-pick h4 {
+  padding: 0;
+  margin: 5px 0;
+  grid-column: 1/-1;
+}
+
+.most-popular h4 {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333;
+  font-weight: 700;
+}
+
+.editor-pick h4:hover {
+  text-decoration: underline;
+}
+
+.most-popular {
+  border-top: 1px solid #000;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  height: 800px;
 }
