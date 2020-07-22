@@ -97,6 +97,10 @@ main {
   width: 75%;
 }
 
+.telescope-img span {
+  font-size: 15px;
+}
+
 .heading-img figcaption span {
   font-size: 13px;
   line-height: 18px;
@@ -120,6 +124,10 @@ main {
   margin-bottom: 5px;
 }
 
+.extra-info a {
+  text-decoration: underline;
+}
+
 .main-content .author-name a {
   text-decoration: underline;
   text-decoration-color: rgba(180, 177, 177, 0.589);
@@ -139,32 +147,29 @@ main {
   justify-content: flex-end;
 }
 
-.date-share-icons ul li {
-  margin: 0 10px;
-}
-
 .social-icons {
-  line-height: 17px;
-  font-size: 17px;
-  background-color: rgba(197, 194, 194, 0.589);
+  display: inline-block;
+  margin: 0 9px;
+  font-size: 14px;
+  background-color: rgba(209, 208, 208, 0.623);
+  padding: 6px;
   border-radius: 50%;
+  border: 1px solid rgba(209, 208, 208, 0.623);
 }
 
-.date-share-icons i {
-  display: inline-block;
-  padding: 8px;
+.fa-facebook {
+  padding: 6px 9px;
 }
 
 .book-comment {
   font-size: 50px;
   font-weight: 400;
   line-height: 20px;
+  margin: 0 10px;
 }
 
 .date-share-icons .social-icons:hover {
   background-color: #fff;
-  border: 0.1px solid rgb(177, 171, 171);
-  border-radius: 50%;
   cursor: pointer;
 }
 
@@ -201,6 +206,19 @@ main {
   padding: 0;
 }
 
+.telescope-img img {
+  display: block;
+  width: 100%;
+}
+
+.telescope-img figcaption {
+  color: #666;
+  font-size: 17px;
+  line-height: 20px;
+  width: 97%;
+  padding-top: 8px;
+}
+
 .first-row ul li figure,
 .second-row ul li figure {
   margin-left: 0;
@@ -221,6 +239,11 @@ main {
   font-weight: 100;
 }
 
+/* Video sec */
+.video p span {
+  font-size: 13px;
+}
+
 .first-row ul li figure figcaption span,
 .second-row ul li figure figcaption span {
   color: #000;
@@ -234,4 +257,57 @@ main {
 
 .theory-of-inflation .image-courtsey {
   color: #000;
+}
+
+/* Video Section */
+
+.video p {
+  color: #666;
+  margin-top: 3px;
+  font-size: 16px;
+}
+
+/* second image */
+.telescope-img {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.special-time {
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+  font-weight: 800;
+}
+
+.extra-info p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #666;
+}
+
+.social-share {
+  flex: 1;
+}
+
+.comment-btn {
+  flex: 1.2;
+}
+
+.comment-btn button {
+  width: 100%;
+  height: 40px;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-top: 6px;
+}
+
+.social-share ul {
+  justify-content: flex-end;
+}
+
+.social-share i:hover {
+  background-color: #fff;
+  cursor: pointer;
 }
