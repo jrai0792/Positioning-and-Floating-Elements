@@ -147,6 +147,15 @@ main {
   border-top: 1px solid rgba(211, 204, 204, 0.822);
 }
 
+.footer-bottom a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 5px;
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+}
+
 .main-content .author-name a {
   text-decoration: underline;
   text-decoration-color: rgba(180, 177, 177, 0.589);
@@ -159,6 +168,10 @@ main {
 
 .most-popular a:hover {
   color: #666;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
 }
 
 .main-content p a:hover {
@@ -259,6 +272,15 @@ main {
   height: 270px;
 }
 
+.footer img {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding: 0;
+}
+
 .first-row ul li figure img,
 .second-row ul li figure img {
   height: 130px;
@@ -341,6 +363,11 @@ main {
   justify-content: flex-end;
 }
 
+.fixed-footer i {
+  display: inline-block;
+  flex: 1;
+}
+
 .social-share i:hover {
   background-color: #fff;
   cursor: pointer;
@@ -409,21 +436,13 @@ main {
   margin: 0 auto;
   border-top: 2px double rgba(180, 178, 178, 0.575);
   border-top-width: 5px;
-
-}
-.footer img {
-  display: block;
-  width: 200px;
-  height: 50px;
-  margin-top: -10px;
-  margin-bottom: -10px;
-  padding: 0;
 }
 
 .menu {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
+
 .menu li:first-child {
   font-weight: 700;
   font-size: 17px;
@@ -434,19 +453,6 @@ main {
 .footer-bottom {
   border-top: 1px solid rgba(180, 178, 178, 0.575);
 }
-.footer-bottom a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0 5px;
-  font-size: 13px;
-  color: #666;
-  font-weight: 400;
-}
-
-.footer-bottom a:hover {
-  text-decoration: underline;
-  
-}
 
 /* Fixed Footer */
 
@@ -456,20 +462,14 @@ main {
   bottom: 0;
   width: 100%;
   background-color: #fff;
-
 }
+
 .fixed-footer p:first-child {
   flex: 3;
   text-align: center;
-
 }
 
-.fixed-footer p:nth-child(2){
+.fixed-footer p:nth-child(2) {
   flex: 0.35;
   text-align: center;
-}
-.fixed-footer i {
-  display: inline-block;
-  flex: 1;
-  
 }
