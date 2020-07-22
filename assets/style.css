@@ -102,7 +102,7 @@ main {
   line-height: 18px;
 }
 
-.main-content {
+.width-class {
   width: 40%;
   margin: 0 auto;
 }
@@ -156,7 +156,6 @@ main {
 }
 
 .book-comment {
-  background-color: royalblue;
   font-size: 50px;
   font-weight: 400;
   line-height: 20px;
@@ -167,4 +166,75 @@ main {
   border: 0.1px solid rgb(177, 171, 171);
   border-radius: 50%;
   cursor: pointer;
+}
+
+.theory-of-inflation {
+  width: 70%;
+  margin: 0 auto;
+}
+.theory-of-inflation h4,
+.theory-of-inflation p {
+  font-size: 16px;
+}
+
+.theory-of-inflation h4 {
+  margin-bottom: -8px;
+}
+
+.theory-of-inflation p {
+  font-size: 14px;
+  line-height: 16px;
+  color:  rgb(107, 103, 103);
+}
+
+
+.first-row ul li,
+.second-row ul li {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  justify-content: space-between;
+}
+
+.first-row ul,
+.second-row ul {
+  margin: 0;
+  padding: 0;
+}
+
+.first-row ul li figure,
+.second-row ul li figure {
+  padding-right: 0;
+  margin-left: 0;
+  padding-right: 10px;
+ 
+}
+
+.first-row ul li figure img,
+.second-row ul li figure img {
+  height: 130px;
+  width: 215px;
+}
+
+.first-row ul li figure figcaption,
+.second-row ul li figure figcaption {
+  font-size: 13px;
+  color: gray;
+  line-height: 16px;
+  font-weight: 100;
+}
+
+.first-row ul li figure figcaption span,
+.second-row ul li figure figcaption span {
+  color: #000;
+  font-weight: 500;
+}
+
+.second-row {
+  border-bottom: 1px solid #000;
+  width: 80px;
+}
+
+.theory-of-inflation .image-courtsey {
+  color: #000;
 }
