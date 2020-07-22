@@ -172,6 +172,7 @@ main {
   width: 70%;
   margin: 0 auto;
 }
+
 .theory-of-inflation h4,
 .theory-of-inflation p {
   font-size: 16px;
@@ -184,15 +185,13 @@ main {
 .theory-of-inflation p {
   font-size: 14px;
   line-height: 16px;
-  color:  rgb(107, 103, 103);
+  color: rgb(107, 103, 103);
 }
-
 
 .first-row ul li,
 .second-row ul li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 0px;
   justify-content: space-between;
 }
 
@@ -204,10 +203,8 @@ main {
 
 .first-row ul li figure,
 .second-row ul li figure {
-  padding-right: 0;
   margin-left: 0;
   padding-right: 10px;
- 
 }
 
 .first-row ul li figure img,
