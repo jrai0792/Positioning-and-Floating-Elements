@@ -20,6 +20,7 @@ body {
 .grid {
   display: grid;
 }
+
 .nav-bar {
   height: 100%;
   align-items: center;
@@ -150,6 +151,11 @@ main {
 
 .subscribe-img span {
   font-weight: 900;
+}
+
+.toi-figcaption span {
+  color: #000;
+  font-weight: 500;
 }
 
 .heading-img figcaption span {
@@ -342,7 +348,7 @@ main {
   padding-left: -20px;
 }
 
-.toi-img-wrapper  {
+.toi-img-wrapper {
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
 }
@@ -394,11 +400,6 @@ main {
 /* Video sec */
 .video p span {
   font-size: 13px;
-}
-
-.toi-figcaption span {
-  color: #000;
-  font-weight: 500;
 }
 
 .second-row {
