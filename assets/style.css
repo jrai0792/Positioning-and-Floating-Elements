@@ -52,6 +52,10 @@ ul {
   height: 100%;
 }
 
+.login {
+  float: right;
+}
+
 .btn {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
