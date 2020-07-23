@@ -4,6 +4,7 @@
 
 > This project consists of making a clone of a New York Times article page.
 
+
 ![screenshot](./screenshot.png)
 
 ## Built With
