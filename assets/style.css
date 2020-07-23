@@ -101,6 +101,10 @@ main {
   font-size: 15px;
 }
 
+.subscribe-img span {
+  font-weight: 900;
+}
+
 .heading-img figcaption span {
   font-size: 13px;
   line-height: 18px;
@@ -156,6 +160,12 @@ main {
   font-weight: 400;
 }
 
+.footer-heading a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #567b95;
+}
+
 .content span a {
   font-weight: 400;
   color: #326891;
@@ -206,6 +216,15 @@ main {
 
 .fa-facebook {
   padding: 6px 9px;
+}
+
+.fa-bookmark,
+.fa-comment-alt {
+  font-size: 25px;
+  padding: 0 5px;
+  color: rgba(0, 0, 0, 0.603);
+  display: inline-block;
+  font-weight: 100;
 }
 
 .book-comment {
@@ -295,6 +314,15 @@ main {
   margin-top: -10px;
   margin-bottom: -5px;
   padding: 0;
+}
+
+.footer-heading {
+  justify-content: space-between;
+}
+
+.subscribe-img img {
+  width: 20px;
+  height: 20px;
 }
 
 .first-row ul li figure img,
