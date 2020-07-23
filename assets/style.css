@@ -17,6 +17,9 @@ body {
   align-items: center;
 }
 
+.grid {
+  display: grid;
+}
 .nav-bar {
   height: 100%;
   align-items: center;
@@ -24,6 +27,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+.txt-clr {
+  color: #333;
 }
 
 .hamburger-search {
@@ -159,7 +166,6 @@ main {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 20px;
   line-height: 30px;
-  color: #333;
   font-weight: 400;
 }
 
@@ -211,7 +217,6 @@ main {
 }
 
 .editor-pick-aside a {
-  color: #333;
   text-decoration: none;
   font-size: 14px;
   line-height: 17px;
@@ -337,9 +342,7 @@ main {
   padding-left: -20px;
 }
 
-.first-row ul li,
-.second-row ul li {
-  display: grid;
+.toi-img-wrapper  {
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
 }
@@ -393,8 +396,7 @@ main {
   font-size: 13px;
 }
 
-.first-row ul li figure figcaption span,
-.second-row ul li figure figcaption span {
+.toi-figcaption span {
   color: #000;
   font-weight: 500;
 }
@@ -424,7 +426,6 @@ main {
 .special-time {
   font-size: 20px;
   line-height: 30px;
-  color: #333;
   font-weight: 800;
 }
 
@@ -469,7 +470,6 @@ main {
 .extra {
   width: 85%;
   margin: auto;
-  display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   column-gap: 15px;
@@ -478,7 +478,6 @@ main {
 }
 
 .space-astronomy {
-  display: grid;
   border-top: 1px solid #000;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: max-content;
@@ -489,7 +488,6 @@ main {
 
 .editor-pick {
   border-top: 1px solid #000;
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: max-content 1fr;
   height: 350px;
@@ -539,7 +537,6 @@ main {
 }
 
 .menu {
-  display: grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 30px;
 }
