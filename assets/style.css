@@ -166,6 +166,14 @@ main {
   color: #567b95;
 }
 
+.editor-pick-aside a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 100;
+}
+
 .content span a {
   font-weight: 400;
   color: #326891;
@@ -187,6 +195,10 @@ main {
 }
 
 .footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.editor-pick-aside a:hover {
   text-decoration: underline;
 }
 
@@ -221,7 +233,7 @@ main {
 .fa-bookmark,
 .fa-comment-alt {
   font-size: 25px;
-  padding: 0 5px;
+  padding: 0 7px;
   color: rgba(0, 0, 0, 0.603);
   display: inline-block;
   font-weight: 100;
@@ -517,6 +529,19 @@ main {
   width: 100%;
   background-color: #fff;
   border-top: 1px solid #000;
+}
+
+.editor-pick-aside {
+  position: absolute;
+  padding-left: 600px;
+}
+
+.editor-pick-aside p {
+  margin-left: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(177, 173, 173);
+  width: 250px;
+  font-weight: 500;
 }
 
 .fixed-footer p:first-child {
