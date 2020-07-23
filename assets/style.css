@@ -192,12 +192,15 @@ main {
   text-decoration: none;
 }
 
+.gray {
+  color: #666;
+}
+
 .footer-bottom a {
   display: inline-block;
   text-decoration: none;
   padding: 0 5px;
   font-size: 11px;
-  color: #666;
   font-weight: 400;
 }
 
@@ -219,6 +222,18 @@ main {
   font-weight: 400;
   color: #326891;
   text-decoration: underline;
+}
+
+.space-astronomy figure a,
+.editor-pick figure a {
+  position: relative;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 100;
+  color: #999;
+  margin-left: 260px;
+  margin-top: -8px;
+  text-decoration: none;
 }
 
 .main-content .author-name a {
@@ -336,7 +351,6 @@ main {
 }
 
 .telescope-img figcaption {
-  color: #666;
   font-size: 17px;
   line-height: 20px;
   width: 97%;
@@ -397,7 +411,6 @@ main {
 /* Video Section */
 
 .video p {
-  color: #666;
   margin-top: 3px;
   font-size: 16px;
 }
@@ -418,7 +431,6 @@ main {
 .extra-info p {
   font-size: 13px;
   line-height: 16px;
-  color: #666;
 }
 
 .social-share {
@@ -462,7 +474,7 @@ main {
   grid-template-rows: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 20px;
-  height: 900px;
+  height: 1000px;
 }
 
 .space-astronomy {
