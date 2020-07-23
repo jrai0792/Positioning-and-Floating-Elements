@@ -34,6 +34,10 @@ ul {
   color: #333;
 }
 
+.font-11 {
+  font-size: 11px;
+}
+
 .hamburger-search {
   flex: 1;
   margin-left: 5px;
@@ -593,15 +597,6 @@ main {
   padding-right: 30px;
   border-right: 1px solid rgba(180, 178, 178, 0.575);
   height: 95%;
-}
-
-.subscribe-section li:nth-child(6),
-.subscribe-section li:nth-child(7),
-.subscribe-section li:nth-child(8),
-.subscribe-section li:nth-child(9),
-.subscribe-section li:nth-child(10),
-.subscribe-section li:nth-child(11) {
-  font-size: 11px;
 }
 
 .subscribe-section li:nth-child(8) {
